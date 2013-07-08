@@ -1,2 +1,81 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  background-color:#cecece;
+}
 /*Topbar*/
-#navbar>nav {background-color:#f00;height:40px;}
+[role="home"]{position:absolute;}
+.control-group{position:relative;}
+#navbar>nav,footer[role="copyright"]>div.container {background-color:#f00;height:40px;}
+header [role="navigation"]>ul{float:left;margin-left:150px;}
+header [role="navigation"]>ul>li>a{font-size:16px;font-weight:bold;}
+#main-filter-location{float:left;margin:18px 0 0 150px;}
+#main-filter-location>ul>li{display:inline;margin-left:20px;}
+#main-filter-location>ul>li>a{color:#000;font-size:13px;}
+#partner{float:right;margin:5px 15px 5px 0;}
+/*layout*/
+#toc{background-color:#fff;box-shadow:0 1px 7px #999;margin-bottom:20px;}
+.container figure{margin:0 0 10px 0;}
+.container ul{list-style-type:none;padding:0;margin:0; }
+aside[role="complementary"]{width:275px;float:left;}
+section[role="main"]{width:684px;margin:45px 0 20px 20px;float:left;}
+section[role="main"]>article{padding:0 20px 0 0;}
+
+
+[role="navigation"]>ul,footer[role="copyright"]>div>ul{float:right; padding:10px 20px;margin:0;list-style-type:none;}
+[role="navigation"]>ul>li,footer[role="copyright"]>div>ul>li{display:inline; margin-left:15px;}
+[role="navigation"]>ul>li>a,footer[role="copyright"]>div>ul>li>a{color:#fff;}
+/*navigation-search*/
+.navigation-search>div:first-child{margin: 15px 0 20px 10px;width: 255px;}
+.box-inner-search{background: url(../img/bg_option.png) repeat-x;font-size:11px; height: 275px;border: 1px solid #ccc;border-radius: 4px;padding: 15px;}
+form div.input-data label{width: 60px;float:left;display: inline;font-size: 11px;line-height: 24px;margin: 0;}
+form div.input-data input {font-size:10px;height:12px;float:left;display: inline;width: 148px;box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.15),inset 0px -1px 1px rgba(0, 0, 0, 0.15);margin: 0;}
+#fiter-date>input{width: 110px;}
+#fiter-date>.drop-input{background:url(../img/drop-input.png) no-repeat;display:block;height:22px;width:18px;right:24px;position: absolute;cursor: pointer;}
+#calendar{position:absolute;right:0;}
+p.input-type{margin:-10px 0 0 58px;}
+p.input-type>label{font-size:11px; width:80px;display:inline-block;margin:0 0 5px 0;}
+p.input-type>label>span{position:relative;top:3px;}
+.submit-btn{text-align:right;}
+.submit-btn>p{margin:0 0 4px 0;}
+.submit-btn>p>button{border: none;background-color: transparent;margin: 0;padding: 0;}
+h3#show-info{background:url(../img/toggle.png) center left no-repeat; font-size:16px;line-height:24px;margin:0 0 25px 0;padding-left:35px;}
+#country-selector{display: inline-block;padding: 0 30px 0px 8px;line-height: 20px;font-size: 12px;font-weight:bold; position: relative;}
+#country-selector>i{background-image:url(../img/lock.png);background-repeat: no-repeat;display: inline-block;height: 20px;width:20px;margin-top: 1px;position: absolute;right: 4px;}18
+
+
+
+.btn-click {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fafafa;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fafafa;
+	box-shadow:inset 0px 1px 0px 0px #fafafa;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f16228), color-stop(1, #f16228) );
+	background:-moz-linear-gradient( center top, #f16228 5%, #f16225 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f16228', endColorstr='#f16228');
+	background-color:#f16228;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #cccccc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:2px 20px;
+	text-align:center;
+	text-decoration:none;
+	text-align:center;
+}
+.btn-click:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f16225), color-stop(1, #f2a17e) );
+	background:-moz-linear-gradient( center top, #f16225 5%, #f2a17e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f16225', endColorstr='#f2a17e');
+	background-color:#f16225;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
