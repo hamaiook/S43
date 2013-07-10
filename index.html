@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/jquery-1.9.1.min.js"></script>
     </head>
-    <body>
+    <body class="home">
         <div id="toc" class="container">
         <header>
             <div class="container">
@@ -28,7 +28,7 @@
                     <div class="span9">
                         <div id="main-filter-location">
                             <ul>
-                                <li><a href="#">Kontakt</a></li>
+                                <li><a href="2-s43.html">Kontakt</a></li>
                                 <li><a href="#">Untermehmen</a></li>
                                 <li><a href="#">Deutsh</a></li>
                                 <li><div id="country-selector" class="btn">Main B Ich<i></i></div></li>
@@ -41,7 +41,7 @@
                     <nav role="navigation" class="container">
                         <ul>
                             <li><a id="home" href="index.html"><img src="img/home-icon.png"></a></li>
-                            <li><a href="#">Fahren</a></li>
+                            <li><a href="2-s43.html">Fahren</a></li>
                             <li><a href="#">Ticket</a></li>
                             <li><a href="#">S43-Welt</a></li>
                             <li><a href="#">Ausfluge</a></li>
@@ -171,4 +171,11 @@
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <script src="js/vendor/html5.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('h3#show-info').click(function(){
+                $('.box-inner-search').toggleClass('action');            
+            });
+        });
+    </script>
 </html>
