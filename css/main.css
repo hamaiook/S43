@@ -39,7 +39,7 @@ section[role="main"]>article>header>h4{border-bottom:2px solid #f2780b;margin-bo
 aside[role="complementary"]>div.nav{padding:25px 25px 0;}
 aside[role="complementary"]>div.nav>ul>li{padding-bottom:3px;border-bottom:1px solid #ccc;margin-left:10px;}
 aside[role="complementary"]>div.nav>ul>li:last-child{border:none;}
-aside[role="complementary"]>div.nav>ul>li>a{background: url(../img/nav-link.png) no-repeat center left; padding: 0 0 0 15px;display: block;color: #000;font-size: 14px;}
+aside[role="complementary"]>div.nav>ul>li>a{background: url(../img/nav-link.png) no-repeat center left; padding: 0 0 0 15px;display: block;color: #000;font-size: 14px;line-height:24px;}
 aside[role="complementary"]>div.nav>ul>li>a.selected{background:url(../img/l-nav.png)repeat-x;padding:2px 15px;border-radius:4px; color: #fff;font-size: 14px; font-weight:bold;}
 
 section[role="main"][class^="min-table"]{width: 520px;margin-left: 10px;}
