@@ -56,6 +56,13 @@ section[role="main"][class^="min-table"] article>:last-child{position:absolute;t
 .table.table-striped tbody>tr>td{padding:0 10px;height:40px; vertical-align:middle;border-right:1px solid #fff;}
 .table.table-striped tbody>tr>td:first-child+td~*{text-align:center;}
 
+.row-table{background:url(../img/table-link.png)no-repeat;width:700px;height: 1150px;}
+.row-table>ul{position:relative;top:70px;}
+.row-table>ul>li{display:inline;float:left;}
+.row-table>ul>li>span>a{display:inline-block;float:left; width: 155px;/*text-indent: -999em;*/line-height: 40px;}
+.row-table>ul>li>span:first-child+span>a{margin-left: 454px; width: 45px;}
+.row-table>ul>li>span:first-child+span+span>a{width:45px;}
+
 [role="navigation"]>ul,footer[role="copyright"]>div>ul{float:right; padding:10px 20px;margin:0;list-style-type:none;}
 [role="navigation"]>ul>li,footer[role="copyright"]>div>ul>li{display:inline; margin-left:15px;}
 [role="navigation"]>ul>li>a,footer[role="copyright"]>div>ul>li>a{color:#fff;}
