@@ -3,6 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -148,15 +149,15 @@
             </div>
         </footer>
         </div>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('h3#show-info').click(function(){
+					$('.box-inner-search').toggleClass('action');            
+				});
+			});
+		</script>
+		<script src="js/vendor/bootstrap.min.js"></script>
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		<script src="js/vendor/html5.js"></script>
     </body>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('h3#show-info').click(function(){
-                $('.box-inner-search').toggleClass('action');            
-            });
-        });
-    </script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <script src="js/vendor/html5.js"></script>
 </html>
