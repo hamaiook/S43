@@ -9,25 +9,6 @@ body {
 	clear:both;
 }
 
-.container{
-	width: 940px;
-	margin:auto;
-}
-.aside {
-	width: 20%;
-	background-color:green;
-	float:left;
-}
-.guster {
-	width: 20px;
-	background-color:blue;
-}
-.content {
-	width: 80%;
-	background-color:red;
-	float:left;
-}
-
 @media (max-width:940px) and (min-width:768px){
 	.containertest{
 		width: 940px;
@@ -51,6 +32,28 @@ body {
 		margin-left: 10px;
 		margin-right: 10px;
 		background-color:blue;
+	}
+}
+
+@media (min-width:940px){
+	
+	.container{
+		width: 940px;
+		margin:auto;
+	}
+	.aside {
+		width: 20%;
+		background-color:green;
+		float:left;
+	}
+	.guster {
+		width: 20px;
+		background-color:blue;
+	}
+	.content {
+		width: 80%;
+		background-color:red;
+		float:left;
 	}
 }
 
